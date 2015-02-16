@@ -1,7 +1,5 @@
 source 'https://rubygems.org'
 
-gem 'compass-rails'
-gem 'zurb-foundation'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'
 # Use sqlite3 as the database for Active Record
@@ -44,3 +42,6 @@ group :development, :test do
   gem 'spring'
 end
 
+gem 'compass-rails'
+gem 'zurb-foundation'
+gem 'foundation-rails'
