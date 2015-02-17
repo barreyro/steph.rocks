@@ -118,7 +118,7 @@ a:hover {
 }
 
 .text {
-  width: 700px;
+  width: auto;
   margin: auto;
   line-height: 30px;
 }
@@ -133,9 +133,11 @@ h2 {
 
 p {
   font-size: 24px;
-  padding: 60px;
+  margin: 0 auto;
 }
-
+.small-block-grid-3{
+  margin: 0 auto;
+}
 .project-sections{
   width: 32em;
   height: 20em;
@@ -153,7 +155,6 @@ li:hover div {
   height: 16em;
   line-height: 16.2em;
   background: #bbb;
-
 }
 
 li div{
@@ -191,4 +192,7 @@ li div:hover:nth-child(4) {
 
 li div:hover:nth-child(5) {
   background: #3499db;
+}
+.row {
+  height: 40px;
 }
