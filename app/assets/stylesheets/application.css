@@ -15,3 +15,123 @@
  *= require foundation_and_overrides
 
  */
+
+@import url(http://fonts.googleapis.com/css?family=Ropa+Sans);
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+div {
+  width: 100%;
+  height: 100%;
+}
+
+#nav {
+  height: 80px;
+  font-size: 36px;
+  margin-top: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: rgba(255, 255, 255, 0.75);
+  position: fixed;
+  z-index: 100;
+  overflow: hidden;
+}
+
+#nav .sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+#nav .brand {
+  font-size: 40px;
+  line-height: 80px;
+  text-transform: uppercase;
+  float: left;
+  width: 50%;
+  color: rgb(50, 50, 50);
+}
+
+#nav menu {
+  float: left;
+  width: 50%;
+}
+
+#nav ul {
+  text-align: right;
+}
+
+#nav li {
+  list-style-type: none;
+  display: inline;
+  margin-right: 10px;
+  font-size: 20px;
+  line-height: 80px;
+  text-transform: lowercase;
+}
+
+a {
+  color: rgb(50, 50, 50);
+  text-decoration: none;
+  transition: all .25s ease-in-out;
+}
+
+a:hover {
+  color: rgb(100, 100, 100);
+  border-bottom: 4px solid rgb(100, 100, 100);
+}
+
+.black {
+  background-image: url(http://subtlepatterns.com/patterns/gray_sand.png); background-position: initial initial; background-repeat: initial initial;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+.white {
+  background-image: url(http://subtlepatterns.com/patterns/white_carbon.png); background-position: initial initial; background-repeat: initial initial;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+.blank-one {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAJUlEQVQIHWP8//8/AwwwMjL+Z0LmACUZwQIgGRAHJAki4ByQAAAg9BADCJJs7QAAAABJRU5ErkJggg==) repeat,
+ url(https://unsplash.imgix.net/photo-1414073875831-b47709631146?q=75&fm=jpg&s=731b6d5150eea8bafa63ae8194e72ebd) 100% fixed;
+  text-align: center;
+}
+
+.blank-two {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAIklEQVQIHWNkYGD4DwSMQBoMGIEcGBtMM8F4jIyMYBkMFQDP0wr/yEGXyAAAAABJRU5ErkJggg==) repeat,
+ url(https://unsplash.imgix.net/25/black-white-city.jpg?q=75&fm=jpg&s=275cf0f5db491ed16f6a6d63e56dc41c) fixed;
+  text-align: center;
+}
+
+.blank-three {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAYAAADA+m62AAAAS0lEQVQYGY2P0QoAIAgDW///z+aCwZSEejHWdUxExPIDIKOAZ7xvDwRxel5AQQxp7PA1OiRTh9nl2UkfJGFzZeMk/AXSULYelflwAPHTKwUaIRJKAAAAAElFTkSuQmCC) repeat,
+ url(https://unsplash.imgix.net/reserve/nTr1589kTgyXCOdStCGm_MikaRuusunen.jpg?q=75&fm=jpg&s=ebc5195bf9546b2a2f21d8df6fd40fe1) center center no-repeat fixed;
+  text-align: center;
+}
+
+.text {
+  width: 700px;
+  margin: auto;
+  line-height: 30px;
+}
+
+h2 {
+  font-size: 80px;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 2px #000;
+  line-height: 100vh;
+}
+
+p {
+  font-size: 24px;
+  padding: 60px;
+}
