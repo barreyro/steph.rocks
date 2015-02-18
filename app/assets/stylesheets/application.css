@@ -139,3 +139,7 @@ p {
 .row {
   height: auto;
 }
+
+#project-imgs {
+  margin-top: 3em;
+}
