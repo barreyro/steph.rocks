@@ -15,7 +15,7 @@
  *= require foundation_and_overrides
 
  */
-@import url(http://fonts.googleapis.com/css?family=Nixie+One|La+Belle+Aurore|Homemade+Apple|Cinzel);
+@import url('//fonts.googleapis.com/css?family=Nixie+One|La+Belle+Aurore|Homemade+Apple|Cinzel');
 
 *, *:before, *:after {
   -moz-box-sizing: border-box;
