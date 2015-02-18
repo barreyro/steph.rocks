@@ -22,13 +22,19 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-body {
+
+body, h3 {
   font-family: 'Nixie One', cursive;
 }
 
 div {
   width: 100%;
   height: 100%;
+}
+
+.icons {
+  opacity: 0.4;
+  filter: alpha(opacity=40);
 }
 
 #nav {
@@ -113,21 +119,21 @@ a:hover {
   background:
  url(https://unsplash.imgix.net/photo-1414073875831-b47709631146?q=75&fm=jpg&s=731b6d5150eea8bafa63ae8194e72ebd) 100% fixed;
   text-align: center;
-  font-family: 'Cinzel', serif;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .blank-two {
   background:
  url(https://unsplash.imgix.net/25/black-white-city.jpg?q=75&fm=jpg&s=275cf0f5db491ed16f6a6d63e56dc41c) fixed;
   text-align: center;
-  font-family: 'Cinzel', serif;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .blank-three {
   background:
  url(https://unsplash.imgix.net/reserve/nTr1589kTgyXCOdStCGm_MikaRuusunen.jpg?q=75&fm=jpg&s=ebc5195bf9546b2a2f21d8df6fd40fe1) center center no-repeat fixed;
   text-align: center;
-  font-family: 'Cinzel', serif;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .text {
@@ -141,8 +147,8 @@ h2 {
   text-transform: uppercase;
   color: rgb(255, 255, 255);
   text-shadow: 1px 1px 2px #000;
-  line-height: 100vh;
-  font-family: 'Cinzel', serif;
+  padding-top: 2em;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 p {
