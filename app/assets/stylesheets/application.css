@@ -15,13 +15,15 @@
  *= require foundation_and_overrides
 
  */
-
-@import url(http://fonts.googleapis.com/css?family=Ropa+Sans);
+@import url(http://fonts.googleapis.com/css?family=Nixie+One|La+Belle+Aurore|Homemade+Apple|Cinzel);
 
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+}
+body {
+  font-family: 'Nixie One', cursive;
 }
 
 div {
@@ -50,12 +52,18 @@ div {
 }
 
 #nav .brand {
-  font-size: 40px;
+  font-size: 20px;
   line-height: 80px;
-  text-transform: uppercase;
   float: left;
   width: 50%;
   color: rgb(50, 50, 50);
+  font-family: 'Homemade Apple', cursive;
+}
+
+#nav .brand h1{
+  line-height: 80px;
+  font-size: 30px;
+  font-family: 'Homemade Apple', cursive;
 }
 
 #nav menu {
@@ -65,6 +73,7 @@ div {
 
 #nav ul {
   text-align: right;
+  word-spacing: 20px;
 }
 
 #nav li {
@@ -97,24 +106,28 @@ a:hover {
   background-image: url(http://subtlepatterns.com/patterns/white_carbon.png); background-position: initial initial; background-repeat: initial initial;
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
+  font-family: 'Nixie One', cursive;
 }
 
 .blank-one {
   background:
  url(https://unsplash.imgix.net/photo-1414073875831-b47709631146?q=75&fm=jpg&s=731b6d5150eea8bafa63ae8194e72ebd) 100% fixed;
   text-align: center;
+  font-family: 'Cinzel', serif;
 }
 
 .blank-two {
   background:
  url(https://unsplash.imgix.net/25/black-white-city.jpg?q=75&fm=jpg&s=275cf0f5db491ed16f6a6d63e56dc41c) fixed;
   text-align: center;
+  font-family: 'Cinzel', serif;
 }
 
 .blank-three {
   background:
  url(https://unsplash.imgix.net/reserve/nTr1589kTgyXCOdStCGm_MikaRuusunen.jpg?q=75&fm=jpg&s=ebc5195bf9546b2a2f21d8df6fd40fe1) center center no-repeat fixed;
   text-align: center;
+  font-family: 'Cinzel', serif;
 }
 
 .text {
@@ -129,6 +142,7 @@ h2 {
   color: rgb(255, 255, 255);
   text-shadow: 1px 1px 2px #000;
   line-height: 100vh;
+  font-family: 'Cinzel', serif;
 }
 
 p {
