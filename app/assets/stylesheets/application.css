@@ -107,13 +107,13 @@ a:hover {
 }
 
 .black {
-  background-image: url(http://subtlepatterns.com/patterns/gray_sand.png); background-position: initial initial; background-repeat: initial initial;
+  background-image: url(/assets/gray_sand.png); background-position: initial initial; background-repeat: initial initial;
   background-color: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
 }
 
 .white {
-  background-image: url(http://subtlepatterns.com/patterns/white_carbon.png); background-position: initial initial; background-repeat: initial initial;
+  background-image: url(/assets/white_carbon.png); background-position: initial initial; background-repeat: initial initial;
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-family: 'Nixie One', cursive;
@@ -122,14 +122,14 @@ a:hover {
 
 .blank-one {
   background:
- url(https://unsplash.imgix.net/photo-1414073875831-b47709631146?q=75&fm=jpg&s=731b6d5150eea8bafa63ae8194e72ebd) 100% fixed;
+ url(/assets/h2o.jpeg) 100% fixed;
   text-align: center;
   font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .blank-two {
   background:
- url(https://unsplash.imgix.net/25/black-white-city.jpg?q=75&fm=jpg&s=275cf0f5db491ed16f6a6d63e56dc41c) fixed;
+ url(/assets/nyc.jpg) fixed;
   text-align: center;
   font-family: 'Open Sans Condensed', sans-serif;
   height: 50%;
@@ -137,7 +137,7 @@ a:hover {
 
 .blank-three {
   background:
- url(https://unsplash.imgix.net/reserve/nTr1589kTgyXCOdStCGm_MikaRuusunen.jpg?q=75&fm=jpg&s=ebc5195bf9546b2a2f21d8df6fd40fe1) center center no-repeat fixed;
+ url(assets/geoshapes.jpg) center center no-repeat fixed;
   text-align: center;
   font-family: 'Open Sans Condensed', sans-serif;
   height: 40%;
