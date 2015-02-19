@@ -43,9 +43,10 @@ end
 
 group :production do
   gem 'pg'
-  gem 'rails_12factor'
 end
 
 gem 'compass-rails'
 gem 'zurb-foundation'
 gem 'foundation-rails', '5.4.3.1'
+
+gem 'rails_12factor', group: :production
