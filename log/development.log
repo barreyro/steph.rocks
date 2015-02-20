@@ -743,3 +743,114 @@ Started GET "/assets/dinner.png" for ::1 at 2015-02-19 02:54:11 -0500
 
 
 Started GET "/assets/boba.png" for ::1 at 2015-02-19 02:54:11 -0500
+
+
+Started GET "/" for ::1 at 2015-02-19 19:21:15 -0500
+Processing by WelcomeController#homepage as HTML
+  Rendered welcome/homepage.html.erb within layouts/application (35.9ms)
+Completed 200 OK in 868ms (Views: 842.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation/foundation.abide-341dbe19e76094c394d344d25819b75e.js?body=1" for ::1 at 2015-02-19 19:21:16 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion-5eb5f16572180f8994640f65bfeae20d.js?body=1" for ::1 at 2015-02-19 19:21:16 -0500
+
+
+Started GET "/assets/foundation/foundation-5235e5371f201acf5eb189051e7aca6c.js?body=1" for ::1 at 2015-02-19 19:21:16 -0500
+
+
+Started GET "/assets/foundation_and_overrides-09b45674a656b67ca6e88987df6483ec.css?body=1" for ::1 at 2015-02-19 19:21:16 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown-7c7c60a71b25999193b89e535886b7da.js?body=1" for ::1 at 2015-02-19 19:21:16 -0500
+
+
+Started GET "/assets/welcome-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-19 19:21:16 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing-e5de13839333886fd8587f6cf7749bac.js?body=1" for ::1 at 2015-02-19 19:21:16 -0500
+
+
+Started GET "/assets/foundation/foundation.alert-1e9e36550f0c6b8e1db9a513a4118388.js?body=1" for ::1 at 2015-02-19 19:21:16 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride-5613669d3873aa2194d100f6d92c6b7a.js?body=1" for ::1 at 2015-02-19 19:21:16 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange-344d775bd5ecdfdaa1da64d16201d96b.js?body=1" for ::1 at 2015-02-19 19:21:16 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan-3a88e70bfa0d1abd53de6488e50b8319.js?body=1" for ::1 at 2015-02-19 19:21:16 -0500
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-19 19:21:16 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas-d959fec4387ed58673c4489ae4d274de.js?body=1" for ::1 at 2015-02-19 19:21:16 -0500
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-19 19:21:16 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit-cea30a46da6f4be60703e3c1f4714bef.js?body=1" for ::1 at 2015-02-19 19:21:16 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal-a1ba81170594f72c7f626f674ced9ecb.js?body=1" for ::1 at 2015-02-19 19:21:16 -0500
+
+
+Started GET "/assets/foundation/foundation.slider-ba4fd2e5b0152455f9b4384616082ecd.js?body=1" for ::1 at 2015-02-19 19:21:16 -0500
+
+
+Started GET "/assets/foundation/foundation.tab-f708cb643bc9ed2e5a5f5695dc74debc.js?body=1" for ::1 at 2015-02-19 19:21:16 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip-d3eb36e17703b857251213c1b12bb850.js?body=1" for ::1 at 2015-02-19 19:21:16 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar-57fcfabd92f84ea360a608083e185ace.js?body=1" for ::1 at 2015-02-19 19:21:16 -0500
+
+
+Started GET "/assets/foundation-13c99e3c745584ef5992c524b98024fb.js?body=1" for ::1 at 2015-02-19 19:21:16 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer-34ed6a12fd692cc4409b57f80658adb3.js?body=1" for ::1 at 2015-02-19 19:21:16 -0500
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-19 19:21:16 -0500
+
+
+Started GET "/assets/in.png" for ::1 at 2015-02-19 19:21:16 -0500
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-19 19:21:16 -0500
+
+
+Started GET "/assets/gplus.png" for ::1 at 2015-02-19 19:21:16 -0500
+
+
+Started GET "/assets/github.png" for ::1 at 2015-02-19 19:21:16 -0500
+
+
+Started GET "/assets/twitter.png" for ::1 at 2015-02-19 19:21:17 -0500
+
+
+Started GET "/assets/email.png" for ::1 at 2015-02-19 19:21:17 -0500
+
+
+Started GET "/assets/lotify.png" for ::1 at 2015-02-19 19:21:17 -0500
+
+
+Started GET "/assets/unicorn.png" for ::1 at 2015-02-19 19:21:17 -0500
+
+
+Started GET "/assets/iball.png" for ::1 at 2015-02-19 19:21:17 -0500
+
+
+Started GET "/assets/fantasy.png" for ::1 at 2015-02-19 19:21:17 -0500
+
+
+Started GET "/assets/dinner.png" for ::1 at 2015-02-19 19:21:17 -0500
+
+
+Started GET "/assets/boba.png" for ::1 at 2015-02-19 19:21:17 -0500
