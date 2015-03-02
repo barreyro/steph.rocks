@@ -1,25 +1,20 @@
-<link href='http://fonts.googleapis.com/css?family=Nixie+One|La+Belle+Aurore|Homemade+Apple|Cinzel' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700' rel='stylesheet' type='text/css'>
-
 <div id="nav">
-  <div class="brand">
-    <h1><a href="#blank-one" class="scroll"> stephanie barreyro</a></h1>
-  </div>
+  <div class="brand"><h1><a href="#blank-one" class="scroll"> stephanie barreyro</a></h1></div>
   <div class="menu">
     <ul>
-      <li><%= link_to 'hello', welcome_homepage_path  %></li>
+      <li><a href="#about" class="scroll">hello</a></li>
       <li><a href="#blank-two" class="scroll">projects</a></li>
-      <li><a href="#blank-four" class="scroll">skills</a></li>
-      <li><a href="#blank-three" class="scroll">contact</a></li>
+      <li><a href="#blank-three" class="scroll">skills</a></li>
+      <li><a href="#blank-four" class="scroll">contact</a></li>
     </ul>
   </div>
 </div>
 
 <div id="blank-one" class="blank-one">
-  <p class="text">
-    <h2 class="intro">Hello there!</h2><br>
+  <div class="welcome">
+  <h2>Hello!</h2><br>
     <h3 class="intro">I'm Stephanie.</h3>
-    <h3 class="intro">Developer & Tech Enthusiast </h3>
+    <h3 class="intro">Web Developer & Tech Enthusiast </h3>
     <br>
     <row class="icons">
       <%= link_to image_tag("../../assets/in.png"), "http://www.linkedin.com/in/barreyro" %>
@@ -28,73 +23,42 @@
       <%= link_to image_tag("../../assets/twitter.png"), "http://www.twitter.com/stephbarreyro" %>
       <%= link_to image_tag("../../assets/email.png"), "mailto:stephaniebarreyro@gmail.com" %>
     </row>
-  </p>
+  </div>
 </div>
 
-<div class="white">
-  <div class="text">
-    <p><center>
-    <h2> About</h2>
-    I recently finished a 19 week coding bootcamp in New York City. Prior to attending Dev Bootcamp. I worked as an applications administrator on the DevOps team at UC Davis IT Services. I also attained my bachelor's degree in Psychology and Human Development from UC Davis. When I'm not coding, I like to cook, read, play poker, or spam my friends with NBA gifs.
-    </center></p>
+<div id="about" class="about">
+  <div class="white">
+    <div class="text">
+      <p><h2> <center>About</center></h2>
+      I recently finished a 19 week coding bootcamp in New York City. Prior to attending Dev Bootcamp, I worked as a DevOps intern and Applications Administrator at UC Davis IT Services. I  have a bachelor's degree in Psychology and Human Development. When I'm not coding, I like to cook, read, play poker, or spam my friends with NBA gifs.
+      </p>
+    </div>
   </div>
 </div>
 
 <div id="blank-two" class="blank-two">
-  <h2>projects</h2>
+  <h2>My Work</h2>
 </div>
 
 <div class="black">
-  <div class="row collapse">
-  <div class="text">
-    <p class="text-center" id="project-imgs">
-      <ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-3">
-        <br>
-        <li>
-          <%= link_to image_tag("../../assets/lotify.png"), "http://www.lotifyme.co/" %>
-        </li>
-        <li>
-          <%= link_to image_tag("../../assets/unicorn.png"), "http://survey-unicorn.herokuapp.com" %>
-        </li>
-        <li>
-           <%= link_to image_tag("../../assets/iball.png"), "http://i-ball.herokuapp.com/" %>
-        </li>
-        <li>
-           <%= link_to image_tag("../../assets/fantasy.png"), "http://gographs.herokuapp.com" %>
-        </li>
-        <li>
-           <%= link_to image_tag("../../assets/dinner.png"), "https://github.com/barreyro/PythonRestaurant" %>
-        </li>
-        <li>
-           <%= link_to image_tag("../../assets/boba.png"), "http://bo-ba.herokuapp.com/" %>
-        </li>
-      </ul>
-    </p>
-  </div>
-  </div>
+  <div class="text"><p>
+    <br><br><ul>
+     <li><strong>LotifyMe</strong></li><br><Br>
+     <li><strong>PythonRestaurant</strong></li><br><Br>
+     <li><strong>BobaRacer</strong></li><br><Br>
+     <li><strong>SurveyUnicorn</strong></li><br><Br>
+     <li><strong>YourLeagueGraphs</strong></li><br><Br>
+   </ul>
+  </p></div>
 </div>
-
 
 <div id="blank-three" class="blank-three">
-  <h2>contact</h2>
+  <h2>Skills</h2>
 </div>
 
 <div class="white">
+  <br><br>
   <div class="text"><p>
-    <center>
-    <strong>email:</strong> stephaniebarreyro@gmail.com<br>
-    <strong>phone:</strong> 415.967.1074
-  <br></p>
-  </div>
-</div>
-
-<div id="blank-four" class="blank-four">
-  <h2>skills</h2>
-</div>
-
-<div class="white">
-  <div class="text">
-    <p>
     <center>
     <div class="skills-row">
       <div class="skill-div">
@@ -130,7 +94,16 @@
     </div>
   </div>
   <br>
-  </p>
+  </p></div>
 </div>
 
-Icons made by <a href="http://www.icomoon.io" title="Icomoon">Icomoon</a>, <a href="http://www.alessioatzeni.com" title="Alessio Atzeni">Alessio Atzeni</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a>         is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a>
+<div id="blank-four" class="blank-four">
+  <h2>Contact</h2>
+</div>
+
+<div class="white">
+  <div class="text"><p><center>
+    <strong>email:</strong> stephaniebarreyro@gmail.com<br>
+    <strong>phone:</strong> 415.967.1074
+  <br></p>
+</div>
