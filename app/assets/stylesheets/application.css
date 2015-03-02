@@ -127,6 +127,14 @@ a:hover {
   font-family: 'Open Sans Condensed', sans-serif;
 }
 
+.blank-four {
+  background: pink;
+  padding-left-left: 50px;
+  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
 .blank-two {
   background:
  url(https://unsplash.imgix.net/25/black-white-city.jpg?q=75&fm=jpg&s=275cf0f5db491ed16f6a6d63e56dc41c) fixed;
