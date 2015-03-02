@@ -15,6 +15,7 @@
  *= require foundation_and_overrides
 
  */
+@import url('//fonts.googleapis.com/css?family=Ropa+Sans');
 @import url('//fonts.googleapis.com/css?family=Nixie+One|La+Belle+Aurore|Homemade+Apple|Cinzel');
 
 *, *:before, *:after {
@@ -23,12 +24,8 @@
   box-sizing: border-box;
 }
 
-body, h3 {
-  font-family: 'Nixie One', cursive;
-}
-
-.hello {
-  display:none;
+body {
+ font-family: 'Nixie One', cursive;
 }
 
 div {
@@ -36,21 +33,17 @@ div {
   height: 100%;
 }
 
-.icons {
-  opacity: 0.4;
-  filter: alpha(opacity=40);
-}
-
 #nav {
   height: 80px;
   font-size: 36px;
-  margin-top: 0;
+  margin-top: 1%;
   padding-left: 20px;
   padding-right: 20px;
   background-color: rgba(255, 255, 255, 0.75);
   position: fixed;
   z-index: 100;
   overflow: hidden;
+  font-family: 'Ropa Sans', sans-serif;
 }
 
 #nav .sticky {
@@ -62,18 +55,12 @@ div {
 }
 
 #nav .brand {
-  font-size: 20px;
+  font-size: 40px;
   line-height: 80px;
+  text-transform: uppercase;
   float: left;
   width: 50%;
   color: rgb(50, 50, 50);
-  font-family: 'Homemade Apple', cursive;
-}
-
-#nav .brand h1{
-  line-height: 80px;
-  font-size: 30px;
-  font-family: 'Homemade Apple', cursive;
 }
 
 #nav menu {
@@ -95,8 +82,15 @@ div {
   text-transform: lowercase;
 }
 
+#nav .brand h1{
+  line-height: 80px;
+  font-size: 30px;
+  font-family: 'Homemade Apple', cursive;
+  text-transform: lowercase;
+}
+
 a {
-  color: #34D1BF;
+  color: rgb(50, 50, 50);
   text-decoration: none;
   transition: all .25s ease-in-out;
 }
@@ -112,69 +106,68 @@ a:hover {
   color: rgb(255, 255, 255);
 }
 
-.white {
+.white, .about {
   background-image: url(http://subtlepatterns.com/patterns/white_carbon.png); background-position: initial initial; background-repeat: initial initial;
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
-  font-family: 'Nixie One', cursive;
-  height: 60%;
+  height: 65%;
 }
 
 .blank-one {
-  background:
+  background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAIklEQVQIHWNkYGD4DwSMQBoMGIEcGBtMM8F4jIyMYBkMFQDP0wr/yEGXyAAAAABJRU5ErkJggg==) repeat,
  url(https://unsplash.imgix.net/photo-1414073875831-b47709631146?q=75&fm=jpg&s=731b6d5150eea8bafa63ae8194e72ebd) 100% fixed;
   text-align: center;
   font-family: 'Open Sans Condensed', sans-serif;
+  padding-top: -1em;
 }
-
-.blank-four {
-  background: pink;
-  padding-left-left: 50px;
-  text-align: center;
-  font-family: 'Open Sans Condensed', sans-serif;
-}
-
 
 .blank-two {
-  background:
- url(https://unsplash.imgix.net/25/black-white-city.jpg?q=75&fm=jpg&s=275cf0f5db491ed16f6a6d63e56dc41c) fixed;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAIklEQVQIHWNkYGD4DwSMQBoMGIEcGBtMM8F4jIyMYBkMFQDP0wr/yEGXyAAAAABJRU5ErkJggg==) repeat,
+ url(https://unsplash.imgix.net/25/black-white-city.jpg?q=75&fm=jpg&s=275cf0f5db491ed16f6a6d63e56dc41c) center center no-repeat fixed;
   text-align: center;
-  font-family: 'Open Sans Condensed', sans-serif;
-  height: 50%;
+  height: 45%;
 }
 
 .blank-three {
-  background:
- url(https://unsplash.imgix.net/reserve/nTr1589kTgyXCOdStCGm_MikaRuusunen.jpg?q=75&fm=jpg&s=ebc5195bf9546b2a2f21d8df6fd40fe1) center center no-repeat fixed;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAJUlEQVQIHWP8//8/AwwwMjL+Z0LmACUZwQIgGRAHJAki4ByQAAAg9BADCJJs7QAAAABJRU5ErkJggg==) repeat,
+ url(http://www.wallpaperup.com/uploads/wallpapers/2012/09/26/16643/f0cae4e6a7ceb7fa8d3d9bccddb63783.jpg) right bottom no-repeat fixed;
   text-align: center;
-  font-family: 'Open Sans Condensed', sans-serif;
   height: 40%;
 }
 
+.blank-four {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAYAAADA+m62AAAAS0lEQVQYGY2P0QoAIAgDW///z+aCwZSEejHWdUxExPIDIKOAZ7xvDwRxel5AQQxp7PA1OiRTh9nl2UkfJGFzZeMk/AXSULYelflwAPHTKwUaIRJKAAAAAElFTkSuQmCC) repeat,
+ url(http://farm8.staticflickr.com/7191/6802641014_66dc3ddaa1_o.jpg) center center no-repeat fixed;
+  text-align: center;
+  height: 40%;
+}
+
+
 .text {
-  width: auto;
+  width: 700px;
   margin: auto;
   line-height: 30px;
 }
 
 h2 {
   font-size: 80px;
-  text-transform: uppercase;
   color: rgb(255, 255, 255);
   text-shadow: 1px 1px 2px #000;
-  padding-top: 2em;
-  font-family: 'Open Sans Condensed', sans-serif;
+  margin-top: -1%;
+  padding-top: 2.5em;
+  font-family: 'Homemade Apple', cursive;
 }
 
-p {
-  font-size: 24px;
+p, text.a {
+  font-family: 'Nixie One', cursive;
   margin: 0 auto;
+  color: white;
 }
 
-.row {
-  height: auto;
-}
 
-#project-imgs {
-  margin-top: 3em;
+h3 {
+  font-family: 'Ropa Sans', sans-serif;
+  font-size: 34px;
+  margin: 0 auto;
+  color: white;
 }
