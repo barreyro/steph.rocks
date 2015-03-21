@@ -72,10 +72,14 @@ div {
   -webkit-animation: fadeUpIn 4s;
 }
 .icons {
-  animation: fadeUpIn 6s;
-  -webkit-animation: fadeUpIn 6s;
+  animation: fadeUpIn 7s;
+  -webkit-animation: fadeUpIn 7s;
 }
 
+#down{
+  animation: fadeUpIn 10s;
+  -webkit-animation: fadeUpIn 10s;
+}
 @-webkit-keyframes fadeUpIn /* Safari and Chrome */
 {
   from { opacity:0; top:150px; }
