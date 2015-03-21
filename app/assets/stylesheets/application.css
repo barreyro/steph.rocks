@@ -331,3 +331,14 @@ h3 {
     overflow: hidden;
   display: block;
 }
+
+h4{
+  font-family: 'Nixie One', cursive;
+  color:#34d1bf ;
+  font-size: 14pt;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#skill-spiel{
+  max-height: 25%;
+}
