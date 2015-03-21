@@ -86,6 +86,7 @@ div {
   font-size: 30px;
   font-family: 'Homemade Apple', cursive;
   text-transform: lowercase;
+  color: #34d1bf;
 }
 
 a {
@@ -95,8 +96,8 @@ a {
 }
 
 a:hover {
-  color: rgb(100, 100, 100);
-  border-bottom: 4px solid rgb(100, 100, 100);
+  color: #34d1bf;
+  background-color: transparent;
 }
 
 .black {
