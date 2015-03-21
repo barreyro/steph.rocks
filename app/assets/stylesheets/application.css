@@ -117,7 +117,9 @@ a:hover {
    background-image: url(http://subtlepatterns.com/patterns/white_carbon.png); background-position: initial initial; background-repeat: initial initial;
   background-color: rgb(255, 255, 255);
   height: auto;
-  min-height: 50%
+  min-height: 60%;
+  width: 1046px;
+  position: relative;
 }
 
 .blank-one {
@@ -155,12 +157,24 @@ a:hover {
   border-bottom: solid 4px black;
 }
 
+.credit{
+    display: inline-block;
+    vertical-align: bottom;
+    background-image: url(http://subtlepatterns.com/patterns/white_carbon.png); background-position: initial initial; background-repeat: initial initial;
+    background-color: rgb(255, 255, 255);
+    padding-top: -1em;
+    height:auto;
+}
+
 .text {
   width: 700px;
   margin: auto;
   line-height: 30px;
 }
 
+#skilldiv{
+  max-width: 1030px;
+}
 h2 {
   font-size: 80px;
   color: rgb(255, 255, 255);
@@ -365,3 +379,4 @@ span.skill-icon:hover + .skill_feature {
 .skill-icon{
   min-height: 100%;
 }
+
