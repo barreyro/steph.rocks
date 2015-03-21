@@ -113,6 +113,13 @@ a:hover {
   border-top: solid 2px black;
 }
 
+.skill-white{
+   background-image: url(http://subtlepatterns.com/patterns/white_carbon.png); background-position: initial initial; background-repeat: initial initial;
+  background-color: rgb(255, 255, 255);
+  height: auto;
+  min-height: 50%
+}
+
 .blank-one {
   background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAIklEQVQIHWNkYGD4DwSMQBoMGIEcGBtMM8F4jIyMYBkMFQDP0wr/yEGXyAAAAABJRU5ErkJggg==) repeat,
  url(https://unsplash.imgix.net/photo-1414073875831-b47709631146?q=75&fm=jpg&s=731b6d5150eea8bafa63ae8194e72ebd) 100% fixed;
@@ -341,4 +348,16 @@ h4{
 }
 #skill-spiel{
   max-height: 25%;
+}
+.skill_feature{
+  display: none;
+  background: #34d1bf;
+}
+
+span.skill-icon:hover + .skill_feature {
+  display: block;
+}
+
+#skilldiv{
+  max-height: 50px;
 }
