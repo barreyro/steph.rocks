@@ -361,3 +361,7 @@ span.skill-icon:hover + .skill_feature {
 #skilldiv{
   max-height: 50px;
 }
+
+.skill-icon{
+  min-height: 100%;
+}
