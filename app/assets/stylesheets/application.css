@@ -67,9 +67,32 @@ div {
   float: left;
   width: 50%;
 }
+.welcome {
+  animation: fadeUpIn 4s;
+  -webkit-animation: fadeUpIn 4s;
+}
+.icons {
+  animation: fadeUpIn 7s;
+  -webkit-animation: fadeUpIn 7s;
+}
+
+#down{
+  animation: fadeUpIn 10s;
+  -webkit-animation: fadeUpIn 10s;
+}
+@-webkit-keyframes fadeUpIn /* Safari and Chrome */
+{
+  from { opacity:0; top:150px; }
+  to { opacity:1; top: 70px; }
+}
 
 #nav ul {
   text-align: right;
+  font-family: 'Nixie One', cursive;
+  font-size: 22px;
+  padding-top: 1em;
+  margin-top: 1em;
+  vertical-align: bottom;
 }
 
 #nav li {
@@ -86,6 +109,7 @@ div {
   font-size: 30px;
   font-family: 'Homemade Apple', cursive;
   text-transform: lowercase;
+  color: #34d1bf;
 }
 
 a {
@@ -95,8 +119,8 @@ a {
 }
 
 a:hover {
-  color: rgb(100, 100, 100);
-  border-bottom: 4px solid rgb(100, 100, 100);
+  color: #34d1bf;
+  background-color: transparent;
 }
 
 .black {
@@ -109,7 +133,7 @@ a:hover {
   background-image: url(http://subtlepatterns.com/patterns/white_carbon.png); background-position: initial initial; background-repeat: initial initial;
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
-  height: 65%;
+  height: 75%;
   border-top: solid 2px black;
 }
 
@@ -117,7 +141,9 @@ a:hover {
    background-image: url(http://subtlepatterns.com/patterns/white_carbon.png); background-position: initial initial; background-repeat: initial initial;
   background-color: rgb(255, 255, 255);
   height: auto;
-  min-height: 50%
+  min-height: 60%;
+  width: 1046px;
+  position: relative;
 }
 
 .blank-one {
@@ -155,12 +181,24 @@ a:hover {
   border-bottom: solid 4px black;
 }
 
+.credit{
+    display: inline-block;
+    vertical-align: bottom;
+    background-image: url(http://subtlepatterns.com/patterns/white_carbon.png); background-position: initial initial; background-repeat: initial initial;
+    background-color: rgb(255, 255, 255);
+    padding-top: -1em;
+    height:auto;
+}
+
 .text {
   width: 700px;
   margin: auto;
   line-height: 30px;
 }
 
+#skilldiv{
+  max-width: 1030px;
+}
 h2 {
   font-size: 80px;
   color: rgb(255, 255, 255);
@@ -365,3 +403,4 @@ span.skill-icon:hover + .skill_feature {
 .skill-icon{
   min-height: 100%;
 }
+
