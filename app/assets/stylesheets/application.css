@@ -110,6 +110,7 @@ a:hover {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   height: 65%;
+  border-top: solid 2px black;
 }
 
 .blank-one {
@@ -125,6 +126,8 @@ a:hover {
  url(https://unsplash.imgix.net/25/black-white-city.jpg?q=75&fm=jpg&s=275cf0f5db491ed16f6a6d63e56dc41c) center center no-repeat fixed;
   text-align: center;
   height: 45%;
+  border-top: solid 4px black;
+  border-bottom: solid 4px black;
 }
 
 .blank-three {
@@ -132,6 +135,8 @@ a:hover {
  url(http://www.wallpaperup.com/uploads/wallpapers/2012/09/26/16643/f0cae4e6a7ceb7fa8d3d9bccddb63783.jpg) right bottom no-repeat fixed;
   text-align: center;
   height: 40%;
+  border-top: solid 4px black;
+  border-bottom: solid 4px black;
 }
 
 .blank-four {
@@ -139,8 +144,9 @@ a:hover {
  url(http://farm8.staticflickr.com/7191/6802641014_66dc3ddaa1_o.jpg) center center no-repeat fixed;
   text-align: center;
   height: 40%;
+  border-top: solid 4px black;
+  border-bottom: solid 4px black;
 }
-
 
 .text {
   width: 700px;
@@ -153,7 +159,7 @@ h2 {
   color: rgb(255, 255, 255);
   text-shadow: 1px 1px 2px #000;
   margin-top: -1%;
-  padding-top: 2.5em;
+  padding-top: 2em;
   font-family: 'Homemade Apple', cursive;
 }
 
@@ -162,7 +168,6 @@ p, text.a {
   margin: 0 auto;
   color: white;
 }
-
 
 h3 {
   font-family: 'Ropa Sans', sans-serif;
