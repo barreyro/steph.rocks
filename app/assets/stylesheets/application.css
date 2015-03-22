@@ -127,9 +127,10 @@ a:hover {
   background-image: url(http://subtlepatterns.com/patterns/gray_sand.png); background-position: initial initial; background-repeat: initial initial;
   background-color: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
+  height:auto;
 }
 
-.white, .about {
+.white, .about{
   background-image: url(http://subtlepatterns.com/patterns/white_carbon.png); background-position: initial initial; background-repeat: initial initial;
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
@@ -137,13 +138,17 @@ a:hover {
   border-top: solid 2px black;
 }
 
-.skill-white{
+.skill-white, #skilldiv {
    background-image: url(http://subtlepatterns.com/patterns/white_carbon.png); background-position: initial initial; background-repeat: initial initial;
   background-color: rgb(255, 255, 255);
-  height: auto;
-  min-height: 60%;
-  width: 1046px;
-  position: relative;
+  height:auto;
+  padding-bottom: 90px;
+}
+
+body {
+   background-image: url(http://subtlepatterns.com/patterns/white_carbon.png); background-position: initial initial; background-repeat: initial initial;
+  background-color: rgb(255, 255, 255);
+  height:auto;
 }
 
 .blank-one {
@@ -161,6 +166,7 @@ a:hover {
   height: 45%;
   border-top: solid 4px black;
   border-bottom: solid 4px black;
+  padding-bottom: 5%;
 }
 
 .blank-three {
@@ -387,20 +393,18 @@ h4{
 #skill-spiel{
   max-height: 25%;
 }
-.skill_feature{
+#skill_feature{
   display: none;
   background: #34d1bf;
 }
 
-span.skill-icon:hover + .skill_feature {
+span.skill-icon:hover + #skill_feature {
   display: block;
 }
 
-#skilldiv{
-  max-height: 50px;
-}
-
-.skill-icon{
+span.skill-icon{
   min-height: 100%;
 }
+
+
 
