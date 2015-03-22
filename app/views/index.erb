@@ -1,59 +1,215 @@
-<div class="backgrounda">
-  <h1 class="name">Stephanie Barreyro</h1>
-  <p> Web Developer.  Winter 2015 graduate of the full stack web development bootcamp, Dev Bootcamp, in New York City, NY. I received my Bachelor of Science degree in Psychology with an emphasis in Biology from UC Davis. Check out some of my projects below.
+<div id="nav">
+  <div class="brand"><h1><a href="#about" class="scroll"> stephanie barreyro</a></h1></div>
+  <div class="menu">
+    <ul>
+      <a href="#blank-one" class="scroll">.hello.</a></li>
+      <a href="#blank-two" class="scroll">projects.</a></li>
+      <a href="#blank-three" class="scroll">skills.</a></li>
+    </ul>
+  </div>
+</div>
+
+<div id="blank-one" class="blank-one">
+  <div class="welcome">
+  <h2>Hello!</h2><br>
+    <h3 class="intro">I'm Stephanie.</h3>
+    <h3 class="intro">Web Developer & Tech Enthusiast </h3>
+    <br>
+    <row class="icons">
+      <%= link_to image_tag("../../assets/in.png"), "http://www.linkedin.com/in/barreyro" %>
+      <%= link_to image_tag("../../assets/gplus.png"), "http://plus.google.com/114512923066155630035/about" %>
+      <%= link_to image_tag("../../assets/github.png"), "https://github.com/barreyro" %>
+      <%= link_to image_tag("../../assets/twitter.png"), "http://www.twitter.com/stephbarreyro" %>
+      <%= link_to image_tag("../../assets/email.png"), "mailto:stephaniebarreyro@gmail.com" %>
+    </row><br><br><br><br>
+    <span id="down">
+    <%= link_to image_tag("../../assets/down.png"), "#about" %></span>
+  </div>
+</div>
+
+<div id="about" class="about">
+  <div class="white">
+    <div class="text">
+      <h2> <center>About</center></h2>
+        <div class="small-11 medium-11 large-10 large-centered columns" id="skill-spiel">
+          <center>
+            My passion is for people and technology. What I love most about coding is its ability to make someone else's life better. I'm always exploring new ideas and engaging in conversations with new people. If you want to collaborate or grab coffee, my contact info is above.  <br><br>
+            "Someone is sitting in the shade today because someone planted a tree a long time ago." - Warren Buffett <br><br>
+          </center>
+        </div>
+    </div>
+  </div>
+</div>
+
+<div id="blank-two" class="blank-two">
+  <h2>My Work</h2>
+</div>
+
+<div class="black">
+ <p>
+  <br>
+  <div id="wrapper">
+    <div class="row">
+      <div class="small-10 medium-6 large-6 columns">
+        <ul id="category-gallery" class="grid caption-hover">
+        <li class="project-tile web">
+          <figure>
+            <span>
+                <%= image_tag("lotifyme.png", :class=>"bwimg", :alt => "rss feed") %>
+            </span>
+            <figcaption>
+              <h3>LOTIFYME</h3>
+              <p>
+                <span>-Rails<br>
+                  -Foundation<br>
+                  -SendGrid<br>
+                  -Api</span>
+                <a href="http://www.lotifyme.co">View </a>
+              </p>
+            </figcaption>
+          </figure>
+        </li>
+      </ul>
+
+      </div>
+      <div class="small-10 medium-6 large-6 columns">
+        <ul id="category-gallery" class="grid caption-hover">
+        <li class="project-tile web">
+          <figure>
+            <span>
+                <%= image_tag("i_ball.png", :class=>"bwimg", :alt => "rss feed") %>
+            </span>
+            <figcaption>
+              <h3>iBALL</h3>
+              <p>
+                <span>-Rails<br>
+                      -JavaScript<br>
+                </span>
+                <a href="http://github.com/barreyro/iBall">View </a>
+              </p>
+            </figcaption>
+          </figure>
+        </li>
+      </ul>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="small-10 medium-6 large-6 columns">
+        <ul id="category-gallery" class="grid caption-hover">
+        <li class="project-tile web">
+          <figure>
+            <span>
+              <%= image_tag("graphme.png", :class=>"bwimg", :alt => "rss feed") %>
+            </span>
+            <figcaption>
+              <h3>GRAPH GAMES</h3>
+              <p>
+                <span>-js.d3<br>
+                      -AngularJS<br>
+                </span>
+                <a href="http://github.com/barreyro/graphgames">View </a>
+              </p>
+            </figcaption>
+          </figure>
+        </li>
+      </ul>
+      </div>
+
+      <div class="small-10 medium-6 large-6 columns">
+        <ul id="category-gallery" class="grid caption-hover">
+          <li class="project-tile web">
+            <figure>
+              <span>
+                <%= image_tag("bobabae.png", :class=>"bwimg",  :alt => "rss feed") %>
+              </span>
+              <figcaption>
+                <h3>BOBABAE</h3>
+                <p>
+                  <span>-JavaScript<br>
+                    -Sinatra<br>
+                  <a href="http://github.com/barreyro/bobabae">View </a>
+                </p>
+              </figcaption>
+            </figure>
+          </li>
+      </ul>
+      </div>
+    </div>
+  </div>
   </p>
 </div>
 
+<div id="blank-three" class="blank-three">
+  <h2>Skills</h2>
+</div>
 
+<div class="skill-white">
+  <br><br>
+  <div class="small-11 small-centered large-10 large-centered columns" id="skill-spiel">
+    <center>
+      In fast-paced environments, software engineers need more than excellence, enthusiasm, and empathy to ship inspiring applications. Along with those qualities, my experience across many languages, frameworks, and development environments has taught me how to select and apply the best technology for any project.<br><br><br>
+    </center>
+  </div>
 
-<div class="backgroundb">
-  <h1>Projects</h1>
-  <section>
-    <div id="icon-wrapper">
-      <a href="map.html">
-      <div class="icons">
-        <div class="icon-slide-container">
-          <img class="slide-icon"  alt="The Kite Map Logo" height="100" src="http://thekitemap.com/images/slide/view-map.jpg">
-          </div>
-        </div>
-      </a>
+  <div class="small-6 large-2 large-offset-1 columns" id="skilldiv">
+    <center><h4>Languages</h4>
+      <span class="skill-icon"> <%= image_tag("languages.png") %></span>
+      <div class="skill_feature">
+        Ruby<Br>
+        JavaScript<br>
+        HTML5<br>
+        CSS3<br>
+        Sass<br>
+      </div>
+    </center>
+  </div>
 
-      <a href="kite-map.php">
-        <div class="icons2">
-          <div class="icon-slide-container">
-            <img class="slide-icon"  alt="The Kite Map Logo" height="100" src="http://thekitemap.com/images/slide/add-beach.jpg">
-            </div>
-          </div>
-        </a>
+  <div class="small-6 medium-2 large-2 columns" id="skilldiv">
+    <center><h4>Frameworks</h4>
+      <span class="skill-icon"> <%= image_tag("framework.png") %></span>
+      <div class="skill_feature">
+        Rails<br>
+        AngularJS<Br>
+        Sinatra<br>
+        Foundation<br>
+      </div>
+    </center>
+  </div>
 
-        <a href="location.php">
-          <div class="icons3">
-            <div class="icon-slide-container">
-              <img class="slide-icon"  alt="The Kite Map Logo" height="100" src="http://thekitemap.com/images/slide/view-all.jpg">
-              </div>
-            </div>
-          </a>
+  <div class="small-6 medium-2 large-2 columns" id="skilldiv">
+    <center><h4>UX</h4>
+      <span class="skill-icon"><%= image_tag("ux.png") %></span>
+      <div class="skill_feature">
+        UX Strategies<br>
+        User goals & work patterns<Br>
+        Interaction Design<br>
+        Wireframing
+      </div>
+    </center>
+  </div>
 
-          <a href="feedback.html">
-            <div class="icons4">
-              <div class="icon-slide-container">
-                <img class="slide-icon"  alt="The Kite Map Logo" height="100" src="http://thekitemap.com/images/slide/feedback.jpg">
-                </div>
-              </div>
-            </a>
+  <div class="small-6 medium-2 large-2 columns" id="skilldiv">
+    <center><h4>Libraries</h4>
+    <span class="skill-icon"><%= image_tag("library.png") %></span>
+    <div class="skill_feature">
+        D3.JS<br>
+        AJAX/jQuery
     </div>
-  </section>
+    <center>
+  </div>
+
+  <div class="small-6 medium-2 large-3 columns" id="skilldiv">
+    <center><h4>Miscellaneuous</h4>
+    <span class="skill-icon"><%= image_tag("misc.png") %></span>
+    <div class="skill_feature">
+      TDD<br>
+      GitHub<br>
+      Heroku<br>
+      OOP<br>
+      Agile<br>
+  </div>
+    </div>
+    </center>
 </div>
-
-
-<div class="backgroundc">
-  <h1>Contact Me</h1>
-  <p>
-  <ul>
-  <li> Github</li>
-  <li> LinkedIn</li>
-  <li> MySpace</li>
-  </ul> </p>
-</div>
-
-
+<div class="credit" id="credit">Icons made by <a href="http://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a>             is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a></div>
