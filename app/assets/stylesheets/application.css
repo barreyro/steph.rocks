@@ -127,6 +127,7 @@ a:hover {
   background-image: url(http://subtlepatterns.com/patterns/gray_sand.png); background-position: initial initial; background-repeat: initial initial;
   background-color: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
+  height:auto;
 }
 
 .white, .about {
@@ -137,12 +138,10 @@ a:hover {
   border-top: solid 2px black;
 }
 
-.skill-white{
+.skill-white, #skilldiv {
    background-image: url(http://subtlepatterns.com/patterns/white_carbon.png); background-position: initial initial; background-repeat: initial initial;
   background-color: rgb(255, 255, 255);
-  height: auto;
-  min-height: 60%;
-  position: relative;
+  height:auto;
 }
 
 .blank-one {
