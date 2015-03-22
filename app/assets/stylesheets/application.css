@@ -63,7 +63,7 @@ div {
   color: rgb(50, 50, 50);
 }
 
-#nav menu {
+#nav #menu {
   float: left;
   width: 50%;
 }
