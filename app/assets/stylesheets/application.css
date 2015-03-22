@@ -386,20 +386,16 @@ h4{
 #skill-spiel{
   max-height: 25%;
 }
-.skill_feature{
+#skill_feature{
   display: none;
   background: #34d1bf;
 }
 
-span.skill-icon:hover + .skill_feature {
+span.skill-icon:hover + #skill_feature {
   display: block;
 }
 
-#skilldiv{
-  max-height: 50px;
-}
-
-.skill-icon{
+span.skill-icon{
   min-height: 100%;
 }
 
