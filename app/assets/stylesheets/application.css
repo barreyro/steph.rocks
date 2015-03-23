@@ -130,13 +130,20 @@ a:hover {
   height:auto;
 }
 
-.white, .about{
+.white{
   background-image: url(http://subtlepatterns.com/patterns/white_carbon.png); background-position: initial initial; background-repeat: initial initial;
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   height: 75%;
   border-top: solid 2px black;
 }
+
+.about{
+  background-image: url(http://subtlepatterns.com/patterns/white_carbon.png); background-position: initial initial; background-repeat: initial initial;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-top: solid 2px black;
+  }
 
 .skill-white, #skilldiv {
    background-image: url(http://subtlepatterns.com/patterns/white_carbon.png); background-position: initial initial; background-repeat: initial initial;
@@ -157,6 +164,7 @@ body {
   text-align: center;
   font-family: 'Open Sans Condensed', sans-serif;
   padding-top: -1em;
+  height: 100vh;
 }
 
 .blank-two {
